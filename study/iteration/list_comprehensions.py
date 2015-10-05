@@ -23,3 +23,7 @@ print([m+n for m in 'ABC' for n in 'CVB'])
 
 print([d for d in os.listdir('..')])
 
+L1 = ['Hello','World',11,'Apple',None]
+L2=[x.lower() for x in L1 if isinstance(x,str)]
+print(L2)
+
