@@ -22,3 +22,8 @@ print(person('Adam',22,gender='M',job='Engineer'))
 
 extra = {'city':'Beijing','job':'Engineer'}
 print(person('Jack',24,**extra))
+
+def personkey(name,age,*,city,job):
+    print('name:',name,'age:',age,'city:',city,'job:',job)
+
+print()
