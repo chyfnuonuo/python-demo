@@ -12,6 +12,7 @@
 @time: 2015/10/5 22:27
 """
 import os
+
 print(list(range(1, 11)))
 
 print([x * x for x in range(1, 11)])
