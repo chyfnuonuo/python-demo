@@ -28,6 +28,30 @@ f=fib(6)
 for ff in f:
     print(ff)
 
-def triangles(max):
-    n =0
-    a=1
+def triangles():
+    n=1
+    list_a=[1]
+    while True:
+        list_b=[]
+        if n==1:
+           list_b=list_a=[1]
+        elif n==2:
+            list_a=list_b=[1,1]
+        else:
+            for i in range(n):
+                if i==0 or i==n-1:
+                    list_b.append(1)
+                else:
+                    list_b.append(list_a[i-1]+list_a[i])
+        yield list_b
+        list_a=list_b
+        n=n+1
+n=0
+for t in triangles():
+    print(t)
+    n=n+1
+    if (n==10):
+        break
+
+
+
