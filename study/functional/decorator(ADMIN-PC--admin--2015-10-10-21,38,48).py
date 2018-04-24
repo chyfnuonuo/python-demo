@@ -14,15 +14,17 @@
 import time
 
 
-
-
-
 def deco(func):
+    """testset
+
+    :param func: etst
+    :return: setst
+    """
     def wrapper(a,b):
-        startTime=time.time()
+        starttime = time.time()
         func(a,b)
-        endTime=time.time()
-        msecs=(endTime-startTime)*1000
+        endtime = time.time()
+        msecs = (endtime - starttime) * 1000
         print(">>elapesd time:%f ms"%msecs)
 
     return  wrapper
@@ -34,7 +36,5 @@ def myfunc(a,b):
     print('result is %d'%(a+b))
     print('end myfunc')
 
+
 myfunc(3,8)
-
-
-
