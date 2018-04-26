@@ -25,3 +25,7 @@ for key,value in ab.items():
 
 if 'key2' in ab:
     print('test')
+
+t=set([1,2,3])
+t.add((1,[2,3]))
+print(t)

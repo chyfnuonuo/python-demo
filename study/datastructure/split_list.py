@@ -18,4 +18,4 @@ print(number[-1:-3:-1])
 d={'x':1,'y':2,'z':3}
 
 for key,value in d.items():
-    print(range(5),xrange(5))
+    print(range(5),range(5))

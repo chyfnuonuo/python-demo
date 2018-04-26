@@ -41,7 +41,7 @@ class student(schoolmember):
         schoolmember.__init__(self,name,age)
         self.marks = marks
         print('Initialized a student')
-
+        
     def tell(self):
         schoolmember.tell(self)
         print('Marks:%s'%self.marks)
