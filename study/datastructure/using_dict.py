@@ -22,7 +22,9 @@ print('There are %d elm in the map\n'%len(ab))
 
 for key,value in ab.items():
     print('%s at %s'%(key,value))
-
+for key, value in ab.items():
+    pass
+    
 if 'key2' in ab:
     print('test')
 
