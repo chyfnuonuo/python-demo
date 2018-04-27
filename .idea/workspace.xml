@@ -5,7 +5,6 @@
       <change beforePath="" afterPath="$PROJECT_DIR$/study/functional/hanuo.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/study/datastructure/using_dict.py" afterPath="$PROJECT_DIR$/study/datastructure/using_dict.py" />
-      <change beforePath="$PROJECT_DIR$/study/functional/filter.py" afterPath="$PROJECT_DIR$/study/functional/filter.py" />
     </list>
     <ignored path="python.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -137,7 +136,7 @@
         <entry file="file://$PROJECT_DIR$/study/functional/hanuo.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+              <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -861,7 +860,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524666945318</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="-sdasd">
+      <created>1524838630836</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1524838630836</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -932,7 +938,8 @@
     <MESSAGE value="fff" />
     <MESSAGE value="杨辉三角" />
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="-sdasd" />
+    <option name="LAST_COMMIT_MESSAGE" value="-sdasd" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -955,7 +962,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/study/functional/hanuo.py</url>
-          <line>10</line>
+          <line>11</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
@@ -1324,7 +1331,7 @@
     <entry file="file://$PROJECT_DIR$/study/functional/hanuo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+          <caret line="16" column="27" lean-forward="false" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding />
         </state>
       </provider>
