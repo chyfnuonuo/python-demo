@@ -25,9 +25,7 @@ def log(param=""):
 				reasult = func(*args, **kwargs)
 				print("end call " + param)
 				return reasult
-
 			return wrapper
-
 		return decorator
 	else:
 		raise TypeError
