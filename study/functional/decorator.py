@@ -12,20 +12,22 @@
 @time: 2015/10/10 20:49
 """
 import time
+import functools
 
 
-def deco(func):
-    def wrapper(a, b):
+def metric(func):
+    @functools.wraps(func)
+    def wrapper(*args, **kwargs):
         startTime = time.time()
-        ret = func(a, b)
+        result = func(*args, **kwargs)
         endTime = time.time()
-        msecs = (endTime - startTime) * 1000
+        msecs = (endTime - startTime)
         print(">>elapesd time:%f ms" % msecs)
-
+        return result
     return wrapper
 
 
-@deco
+@metric
 def myfunc(a, b):
     print('start myfunc')
     time.sleep(0.6)
@@ -33,4 +35,22 @@ def myfunc(a, b):
     print('end myfunc')
 
 
-myfunc(3, 8)
+# 测试
+@metric
+def fast(x, y):
+    time.sleep(0.0012)
+    return x + y;
+
+
+@metric
+def slow(x, y, z):
+    time.sleep(0.1234)
+    return x * y * z;
+
+
+f = fast(11, 22)
+s = slow(11, 22, 33)
+if f != 33:
+    print('测试失败!')
+elif s != 7986:
+    print('测试失败!')

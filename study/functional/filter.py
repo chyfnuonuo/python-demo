@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 # coding=utf-8
 
 """
@@ -34,7 +33,7 @@ def primes():
 
 
 for n in primes():
-    if n < 1000:
+    if n < 20:
         print(n)
     else:
         break
